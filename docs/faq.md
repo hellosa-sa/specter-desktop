@@ -20,6 +20,7 @@
   - [*How are Bitcoin Core mnemonic seeds created? With Core there's only the option to backup the wallet.dat file, so how does specter-desktop transform the wallet.dat file into a mnemonic seed?*](#how-are-bitcoin-core-mnemonic-seeds-created-with-core-theres-only-the-option-to-backup-the-walletdat-file-so-how-does-specter-desktop-transform-the-walletdat-file-into-a-mnemonic-seed)
   - [*Why when I export a multisig wallet from specter-desktop (settings > export > copy wallet data) created from devices with only segwit ZPUBs, do I get a data structure with expected segwit derivation paths but XPUBs instead?*](#why-when-i-export-a-multisig-wallet-from-specter-desktop-settings--export--copy-wallet-data-created-from-devices-with-only-segwit-zpubs-do-i-get-a-data-structure-with-expected-segwit-derivation-paths-but-xpubs-instead)
   - [*Does Specter have Coin Control?*](#does-specter-have-coin-control)
+  - [*Does Specter support legacy (non-segwit) wallets?*](#does-specter-support-legacy-wallets)
 - [USAGE](#usage)
   - [*How do I run the app?*](#how-do-i-run-the-app)
   - [*What types of ways can I run specter-desktop?*](#what-types-of-ways-can-i-run-specter-desktop)
@@ -172,6 +173,10 @@ XPUB is a canonical representation that is supported by Bitcoin Core, whereas ZP
 
 Yes, Specter supports Coin Control. Go to "Send". Open the "Advanced" features - and down at the right you have "Select coins manually" bottom.
 
+
+## *Does Specter support legacy (non-segwit) wallets?*
+
+No. Specter does not and will not support older legacy wallets. This decision was made to motivate people to migrate to segwit addresses, to save on fees and block space.
 
 # USAGE
 
